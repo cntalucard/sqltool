@@ -6,7 +6,7 @@ You need an installed oracle client or an instant client (oci.dll). Copy instant
 You can 
 
 * query tables.
-* create and modifiy tables
+* create or modifiy tables
 * views
 * sequences
 * ....

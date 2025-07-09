@@ -11,4 +11,6 @@ You can
 * sequences
 * ....
 
+* If you encounter problems or have suggestions for improvement you can create a ticket on github.
+
   

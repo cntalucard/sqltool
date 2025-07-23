@@ -1,0 +1,15 @@
+0.0.1	First Release
+
+0.0.2	* BugFixes...
+
+0.0.3 
+	* New: Export to csv in data Editor
+	* New: Tooltips text now include Keyboard shurtcut's
+	* New: Rename table, index feature added
+	* BugFix: View: Selects with text over 4000 chars where shown wrong
+	* BugFix: Testconnection (on Direct Connection) always returned error
+	* BugFix: After update dirty flag is cleaned (data Editor,column Editor)
+	* BugFix: RAW column size in add or create table is fix set to 32
+	* BugFix: Number column without size will be set to size 10
+	* BugFix: Column rename bug is fixed
+

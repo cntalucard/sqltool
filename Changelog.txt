@@ -13,3 +13,15 @@
 	* BugFix: Number column without size will be set to size 10
 	* BugFix: Column rename bug is fixed
 
+0.0.4
+	* BugFix: Changed font and font size is now correct in all QWidgets
+	* BugFix: Shortcut are now correct working
+	* BugFix: Not allowed char error when executing a select is solved.
+	* BugFix: Crash in dataeditor when adding a row
+	* BugFix: Using Oracle instant Client. Path is now set correct
+	* BugFix: Change of db Connection properties. (Reload after)
+	* BugFix: Remove of db Connection.
+	* New: Start of support for different date Formats
+	* New: CLOB and BLOB Viewer (double click in data Editor)
+	* New: Copy fullsize pixmap of table into clipboard
+	* New: Explain plan view

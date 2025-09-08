@@ -25,3 +25,9 @@
 	* New: CLOB and BLOB Viewer (double click in data Editor)
 	* New: Copy fullsize pixmap of table into clipboard
 	* New: Explain plan view
+
+0.0.5
+	* New: When Using Oracle >=12.1 FETCH FIRST ist used to Display partial data
+	* BugFix: Export ddl null is exported for empty columns
+	* New: SQL files can be added in Project Manager 
+	* BugFix: Properties of direct Connections did not Show correct

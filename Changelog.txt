@@ -6,7 +6,7 @@
 	* New: Export to csv in data Editor
 	* New: Tooltips text now include Keyboard shurtcut's
 	* New: Rename table, index feature added
-	* BugFix: View: Selects with text over 4000 chars where shown wrong
+	* BugFix: View: Selects with text over 4000 chars where shown wrongf
 	* BugFix: Testconnection (on Direct Connection) always returned error
 	* BugFix: After update dirty flag is cleaned (data Editor,column Editor)
 	* BugFix: RAW column size in add or create table is fix set to 32
@@ -31,3 +31,13 @@
 	* BugFix: Export ddl null is exported for empty columns
 	* New: SQL files can be added in Project Manager 
 	* BugFix: Properties of direct Connections did not Show correct
+
+0.0.6	* BugFix: Dataeditor where condition didn't work correct
+	* BugFix: Index Editor... last column was sometimes wrong when creating index
+	* BugFix: Reset of Error Messages didn't work correctly.
+	* BugFix: crash during select if you use sub selects (wrong cursor mode)
+	* New: Export table via Toolbar
+	* New: List members Dialog (to find columns in tables) (Shortcut Ctrl+E) (aka IntelliSense)
+	* New: Row number is displayed
+
+

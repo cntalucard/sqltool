@@ -14,5 +14,5 @@ You can
 * ....
 
 * If you encounter problems or have suggestions for improvement you can create a ticket on github.
-
+  or send a email to: count.alucard@gmx.at
   

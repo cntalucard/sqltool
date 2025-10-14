@@ -40,4 +40,10 @@
 	* New: List members Dialog (to find columns in tables) (Shortcut Ctrl+E) (aka IntelliSense)
 	* New: Row number is displayed
 
-
+0.0.7   * BugFix: Index editor sometimes crashed…
+	* BugFix: Index not created with correct names if column count>1
+	* BugFix: If Project Manager is selected in menu it now opens
+	* BugFix: Crash when modifing a view
+	* BugFix: Special character wrong after update or insert
+	* New: Search bar for table View
+	* New: Select's run in own thread and can be stopped

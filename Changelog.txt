@@ -47,3 +47,17 @@
 	* BugFix: Special character wrong after update or insert
 	* New: Search bar for table View
 	* New: Select's run in own thread and can be stopped
+
+0.0.8   * BugFix: If you start a select first older running selects are stoped
+	* BugFix: Opening session browser without open session crashed
+	* BugFix: If a problem occurs during connect a messagebox appears.
+	* BugFix: Crash creating a new index for a new table
+	* BugFix: F5 key for refresh didn't work in project Manager
+	* BugFix: Copying all rows of one column
+	* BugFix: Browsing other schemeas some Bugs removed
+	* New: Export Option (CSV,PNG, Insert Statement) Full, or part of table	
+	* New: Intellisense for table columns appear after "." pressed
+	* New: LobViewer Always Shows (ASCII,HEX and Image)
+	* New: Session browser improved. (Auto refresh, kill and disconnect Option in context menu)
+
+	* Various other fixes.....	

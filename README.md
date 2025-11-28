@@ -1,4 +1,5 @@
-<img width="1008" height="857" alt="image" src="https://github.com/user-attachments/assets/0c5353f1-bd32-46e4-b221-c3e761de458c" />
+<img width="1005" height="851" alt="image" src="https://github.com/user-attachments/assets/3e8bc4d4-9fb4-4728-b261-c1617e6b2325" />
+
 
 
 Simple SQL Tool written in C++ with QT 6.9.

@@ -61,3 +61,7 @@
 	* New: Session browser improved. (Auto refresh, kill and disconnect Option in context menu)
 
 	* Various other fixes.....	
+
+0.0.9	* Show's error position in SQL
+	* Search for OCI always starts in .\oc64 Folder
+	* Dataeditor can paste now multiple rows

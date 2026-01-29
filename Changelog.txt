@@ -65,3 +65,9 @@
 0.0.9	* Show's error position in SQL
 	* Search for OCI always starts in .\oc64 Folder
 	* Dataeditor can paste now multiple rows
+
+0.0.10	* BugFix: Grant is recognized as command and not select
+	* BugFix: Some memory leak found… better but not all found
+	* BugFix: Unknown char in SQL should be now solved
+	* New: Constraint tab shows more Information about the constraint
+	* New: Text editor can be cleared

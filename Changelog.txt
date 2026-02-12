@@ -71,3 +71,8 @@
 	* BugFix: Unknown char in SQL should be now solved
 	* New: Constraint tab shows more Information about the constraint
 	* New: Text editor can be cleared
+
+0.0.11  * BugFix: In DB Settings Dialog 
+	* BugFix: LDAP was not correct initalized. (worked ok to connect but not when creating ah new Connection)
+	* New: SqlLite support started WARNING this is not very tested or complete not all is working… (doesn't use sqllite plugin from qt!)
+	* New: Shows Duration of select statement

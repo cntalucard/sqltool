@@ -75,4 +75,14 @@
 0.0.11  * BugFix: In DB Settings Dialog 
 	* BugFix: LDAP was not correct initalized. (worked ok to connect but not when creating ah new Connection)
 	* New: SqlLite support started WARNING this is not very tested or complete not all is working… (doesn't use sqllite plugin from qt!)
-	* New: Shows Duration of select statement
+	* New: Shows duration of select statement
+
+0.0.12  * BufFix: Creating a new SqlLite connection
+	* BugFix: Paste all in dataeditor 
+	* BugFix: Create table for SqlLite corrected
+	* BugFix: Oracle DB Loading thread crash fix
+	* BugFix: Session browser give's error message if opened without database session open
+	* BugFix: SqlLite column types show correct now
+	* BugFix: SqlLite several fixes in Sqllite support
+	* BugFix: grantee column was miss interpreted as "Grant" command
+	* New: New Sqllite DB files can be created

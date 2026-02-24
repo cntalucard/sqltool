@@ -5,10 +5,10 @@
 Simple SQL Tool written in C++ with QT 6.9.
 
 It's not complete and not error free... If you lose or destroy data it is not my fault! <BR>
-Work's with Oracle and SQLlite.<BR><BR>
+Work's with Oracle and SQLite.<BR><BR>
 
 For Oracle you need an installed oracle client or an instant client (oci.dll). Copy instant client to folder oci64<BR>
-For SQLlite works out of the box.<BR>
+For SQLite works out of the box.<BR>
 <BR><BR>
 For screenshots look in the doc folder
 

@@ -5,10 +5,12 @@
 Simple SQL Tool written in C++ with QT 6.9.
 
 It's not complete and not error free... If you lose or destroy data it is not my fault! <BR>
-Work's with Oracle and SQLite.<BR><BR>
+Work's with Oracle,maridDB and SQLite.<BR><BR>
 
+If Oracle client or mariaDB/Connector is not found support for these is deactivated. <BR>
 For Oracle you need an installed oracle client or an instant client (oci.dll). Copy instant client to folder oci64<BR>
 For SQLite works out of the box.<BR>
+For mariaDB you need an mariaDB/Connector installed.<BR>
 <BR><BR>
 For screenshots look in the doc folder
 

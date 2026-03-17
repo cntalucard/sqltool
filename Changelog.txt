@@ -73,16 +73,35 @@
 	* New: Text editor can be cleared
 
 0.0.11  * BugFix: In DB Settings Dialog 
-	* BugFix: LDAP was not correct initalized. (worked ok to connect but not when creating ah new Connection)
+	* BugFix: LDAP was not correct initialized. (worked ok to connect but not when creating ah new Connection)
 	* New: SqlLite support started WARNING this is not very tested or complete not all is working… (doesn't use sqllite plugin from qt!)
 	* New: Shows duration of select statement
 
-0.0.12  * BufFix: Creating a new SqlLite connection
+0.0.12  * BufFix: Creating a new SqLite connection
 	* BugFix: Paste all in dataeditor 
-	* BugFix: Create table for SqlLite corrected
+	* BugFix: Create table for SqLite corrected
 	* BugFix: Oracle DB Loading thread crash fix
 	* BugFix: Session browser give's error message if opened without database session open
-	* BugFix: SqlLite column types show correct now
-	* BugFix: SqlLite several fixes in Sqllite support
+	* BugFix: SqLite column types show correct now
+	* BugFix: SqLite several fixes in Sqllite support
 	* BugFix: grantee column was miss interpreted as "Grant" command
-	* New: New Sqllite DB files can be created
+	* New: New Sqlite DB files can be created
+
+0.0.13  * BugFix: Sqlite Autocommit is disabled. Transactions are made automatically
+	* BugFix: Sqlite schemas are now correct Display
+	* BugFix: SQLite is now written correct
+	* BugFix: Index is created UNIQUE as Default
+	* BugFix: Rename table fixed
+	* BugFix: Multiple Rows copy fixed
+	* BugFix: Sqlite file time (modification / create is shown)
+	* BugFix: If no internal OCI Client is found it Looks for a globaly installed
+	* BugFix: Explain plan crashed
+	* New: Export (SQL Statement) works now with multiple rows not only with the current selected one
+	* New: Grants for table are displayed (only Oracle)
+	* New: Drop of constraints 
+	* New: Storage Infos for tables are displayed (only Oracle)
+	* New: Locks are shown in session browser
+	* New: Option for case sensitiv Username in Oracle
+	* New: Support for MariaDB (started far from complete, doesn't use sqllite plugin from qt!)
+
+

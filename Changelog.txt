@@ -102,6 +102,13 @@
 	* New: Storage Infos for tables are displayed (only Oracle)
 	* New: Locks are shown in session browser
 	* New: Option for case sensitiv Username in Oracle
-	* New: Support for MariaDB (started far from complete, doesn't use sqllite plugin from qt!)
+	* New: Support for MariaDB (started far from complete, doesn't use mariaDB plugin from qt!)
 
 
+0.0.14  * BugFix: No crash in info Dialog if Client not found
+	* BugFix: create table for mariaDB fixed
+	* BugFix: Auto Rollback for mariaDB disabled was enabled for Debugging 
+	* BugFix: Dataeditor reload didn't work
+	* BugFix: Sometime empty rows where displayed
+	* BugFix: When a space Character was at the end of a SQL command there was an error
+	* New: Where Option line in data Editor

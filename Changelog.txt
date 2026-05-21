@@ -94,7 +94,7 @@
 	* BugFix: Rename table fixed
 	* BugFix: Multiple Rows copy fixed
 	* BugFix: Sqlite file time (modification / create is shown)
-	* BugFix: If no internal OCI Client is found it Looks for a globaly installed
+	* BugFix: If no internal OCI Client is found it looks for a global installed
 	* BugFix: Explain plan crashed
 	* New: Export (SQL Statement) works now with multiple rows not only with the current selected one
 	* New: Grants for table are displayed (only Oracle)
@@ -108,7 +108,20 @@
 0.0.14  * BugFix: No crash in info Dialog if Client not found
 	* BugFix: create table for mariaDB fixed
 	* BugFix: Auto Rollback for mariaDB disabled was enabled for Debugging 
-	* BugFix: Dataeditor reload didn't work
+	* BugFix: Data editor reload didn't work
 	* BugFix: Sometime empty rows where displayed
 	* BugFix: When a space Character was at the end of a SQL command there was an error
 	* New: Where Option line in data Editor
+
+0.0.15  * BugFix: Timestamp Display was wrong in column Editor (only Oracle)
+	* BugFix: Start of intelisense (DB columns works now better)
+	* BugFix: rows processed -1 if SQL is executed correct is fixed (MariaDB)
+	* BugFix: Quick browser (F3) works now with mariaDB
+	* BugFix: Data Editor works now with mariaDB (lot of bug fix and changes)
+	* BugFix: Index Editor works now with mariaDB (still a bit buggy)
+	* BugFix: Update did update all columns (even if not changed)
+	* BugFix: Crash when creating a new sequence fixed
+	* BugFix: Sqlite has no sequences so sequences Editor is not shown
+	* BugFix: If oci.dll or libmariadb.dll is not found when needed ah MessageBox appears instead of crash
+	* New: Storage Option Displays some more statistic info  (only Oracle)
+	* New: 'Copy' and 'Copy as Image' Option in column editor

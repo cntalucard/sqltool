@@ -125,3 +125,10 @@
 	* BugFix: If oci.dll or libmariadb.dll is not found when needed ah MessageBox appears instead of crash
 	* New: Storage Option Displays some more statistic info  (only Oracle)
 	* New: 'Copy' and 'Copy as Image' Option in column editor
+
+0.0.16  * BugFix: Columns of type number (without precision) where shown wrong (Oracle)
+	* BugFix: Columns with big numbers (64bit) where shown wrong. (Oracle)
+	* BugFix: Adding a comment to a column didn't work correct (Oracle)
+	* New: Linux Version 
+	* New: Update db code to work with Linux (oracle and mysql clients)
+	* Fix: Include filename upper / lowercase mismatch (for Linux)

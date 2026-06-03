@@ -11,6 +11,11 @@ If Oracle client or mariaDB/Connector is not found support for these is deactiva
 For Oracle you need an installed oracle client or an instant client (oci.dll). Copy instant client to folder oci64<BR>
 For SQLite works out of the box.<BR>
 For mariaDB you need an mariaDB/Connector installed.<BR>
+
+<BR><UL>
+<LI>Windows 64 bit binary is in bin folder</LI><BR>
+<LI>Linux binary is in linux-bin folder (compiled with GNU Libc 2.39)</LI>
+</UL><BR>
 <BR><BR>
 For screenshots look in the doc folder
 

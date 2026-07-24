@@ -132,3 +132,24 @@
 	* New: Linux Version 
 	* New: Update db code to work with Linux (oracle and mysql clients)
 	* Fix: Include filename upper / lowercase mismatch (for Linux)
+
+0.0.17  * New: Zoom In/Out via Ctr+ / Ctrl- in Dataview
+	* New: Darkmode (On/ Off via Settings)
+	* New: Editor for grants (apply / reject / …)
+	* New: Connection list can be switched between tree and list
+	* New: Username can now be case sensitive or all upper (check box in connect Settings)
+	* New: Column Editor has now a "Alter Table" button to enable edit mode
+	* New: Block comment / uncomment in editor
+	* New: SQL formater has more features now
+	* BugFix: Bookmark's crashed…
+	* BugFix: (Oracle) Changed Default select mode from OCI_STMT_SCROLLABLE_READONLY to OCI_DEFAULT
+	* BugFix: LOBViewer did not resize correct
+	* BugFix: Dark mode Colors changed in LOBViewer
+	* BugFix: Crash when a update Statement gone wrong (Showing error pos crashed)
+	* BugFix: Crash of about Dialog if no mariaDB connector was found (on exit)
+	* BugFix: If all tabs are closed Connection is closed
+	* BugFix: When using copy Image of table, selection is cleared
+	* BugFix: New function did't work
+	* BugFix: New procedure did't work
+	* BugFix: Changing of colors in Settings works
+	* BugFix: No word wrap in SQL Editor

@@ -153,3 +153,15 @@
 	* BugFix: New procedure did't work
 	* BugFix: Changing of colors in Settings works
 	* BugFix: No word wrap in SQL Editor
+
+0.0.18  * New: DBMS-Output can be switched on/off (Oracle) Output is shown in own Tab (next to Status)
+	* New: Copy all method in context menu for Output
+	* New: Zoom In/Out via Ctr+ / Ctrl- in DataEditor
+	* New: Shortcut Ctrl+P to open explain plan
+	* New: List of shortcuts (as some functions only exist via shortcut)
+	* New: Queues and Queue tables (Oracle)
+	* BugFix: Auto refresh Checkbox didn't work in session browser
+	* BugFix: Error Position after SQL command is fixed
+	* BugFix: Opening other Schemas
+	* BugFix: ORA-01405 fixed
+	

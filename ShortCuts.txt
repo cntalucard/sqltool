@@ -1,0 +1,25 @@
+Global
+F10 		- Session browser
+
+In Editor
+F4		- Describe 
+F7		- Clear Editor
+F8		- Recall last SQL command
+F9		- Execute SQL
+Ctrl + E	- List columns of table
+Ctrl + F	- Find
+Ctrl + L	- Lower all in edit 
+Ctrl + W	- Upper all in edit
+Ctrl + + 	- Make font bigger
+Ctrl + - 	- Make font smaler
+Ctrl + P 	- Make explain plan for current SQL
+Ctrl + ALT + F 	- Resize columns to Content (On/OFF)
+Ctrl + ALT + O 	- Enable /  Disable DBMS output
+
+Table Browser
+F3		- Open in SQL editor
+F5		- Refresh
+
+Ctrl + D	- Extract DDL
+Ctrl + N 	- New table / Sequence / ….
+Ctrl + F2 	- Open in Data view

@@ -164,4 +164,8 @@
 	* BugFix: Error Position after SQL command is fixed
 	* BugFix: Opening other Schemas
 	* BugFix: ORA-01405 fixed
-	
+
+0.0.19  * New: Duplicate row in data editor
+	* BugFix: Copy of multiple columns fixed
+	* BugFix: Multiple commands part with ; works (Oracle)
+	* BugFix: Some smaler fixes
